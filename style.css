@@ -1,0 +1,153 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: gold;
+
+}
+/* Header section  */
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0px;
+    left: 5%;
+    right: 5%;
+}
+.header nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* logo  */
+.logo i span {
+    font-family: "Sofia", sans-serif;
+    color: #d61c4e;
+    font-size: 40px;
+}
+.logo i {
+    font-size: 30px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* nav item  */
+.nav-item1,
+.nav-item2,
+.nav-item3 {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+}
+.nav-item1 {
+    background-image: linear-gradient(#ff8ed4, #ff8ed4, gold);
+    height: 250px;
+    padding: 0 40px;
+    text-align: center;
+}
+.nav-item2 {
+    background-image: linear-gradient(#f6508d, #f97ba9, gold);
+    height: 300px;
+    padding: 0 40px;
+    text-align: center;
+    color: white;
+}
+.nav-item3 {
+    background-image: linear-gradient(#fd297a, #fd297a, gold);
+    height: 350px;
+    padding: 0 40px;
+    text-align: center;
+    color: white;
+}
+
+/* cover  */
+.cover .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.title1 {
+    font-size: 90px;
+    color: #38cca5;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+}
+.title2 {
+    font-size: 150px;
+    color: #3a3a3a;
+    position: absolute;
+    top: 125px;
+    left: 70px;
+}
+.title3 {
+    font-size: 80px;
+    color: black;
+    position: absolute;
+    top: 120px;
+    left: 580px;
+}
+.cover-image {
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    left: 160px;
+    transition: 4s ease-in-out;
+}
+.spring-image {
+    height: 220px;
+    position: absolute;
+    top: 435px;
+    left: 520px;
+    width: 100px;
+    transition: 5s ease-in-out;
+}
+.join-btn {
+    background-color: gold;
+    padding: 10px;
+    position: absolute;
+    top: 630px;
+    left: 525px;
+    font-weight: 900;
+    border: none;
+    color: white;
+}
+.main-cover:hover .cover-image {
+    transform: translateY(23%);
+}
+.main-cover:hover .spring-image {
+    height: 100px;
+    transform: translateY(100%);
+}
+.footer-box1{
+    background-color: #02022d;
+    height: 600px;
+    width: 600px;
+    rotate: 45deg;
+    position: relative;
+    top:140px;
+    left: -113px;
+    z-index: -1;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+
+}
+.footer-box2{
+    background-color: #02022d;
+    height: 264px;
+    width: 100%;
+    position: relative;
+    top:0px;
+    z-index: -1;
+}
+.location h3, p{
+    color:#565656;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.location{
+    padding: 50px 50px;
+}
