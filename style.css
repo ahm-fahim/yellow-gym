@@ -179,41 +179,48 @@ p {
     }
 
     /* cover  */
-    .title1{
+    .title1 {
         font-size: 40px;
         left: 40px;
         top: 70px;
     }
-    .title2{
+    .title2 {
         font-size: 50px;
         top: 90px;
         left: 10px;
     }
-    .title3{
+    .title3 {
         font-size: 35px;
         top: 200px;
         left: 203px;
     }
-    .cover-image{
+    .cover-image {
         height: 200px;
         left: 2px;
     }
-    .spring-image{
+    .spring-image {
         height: 120px;
         width: 40px;
         top: 260px;
         left: 175px;
     }
-    .join-btn{
+    .join-btn {
         background-color: #02022d;
         top: 360px;
         left: 150px;
     }
+    .main-cover:hover .cover-image {
+        transform: translateY(23%);
+    }
+    .main-cover:hover .spring-image {
+        height: 60px;
+        transform: translateY(100%);
+    }
     /* footer  */
-    .footer-box1{
+    .footer-box1 {
         display: none;
     }
-    .footer-box2{
+    .footer-box2 {
         display: none;
     }
 }
