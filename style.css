@@ -161,12 +161,21 @@ p {
     .logo i {
         font-size: 15px;
     }
-.nav-item1,
-.nav-item2,
-.nav-item3{
-    font-size: 18px;
-    padding: 20px;
-}
+    .nav-item1,
+    .nav-item2,
+    .nav-item3 {
+        font-size: 18px;
+        padding: 20px;
+    }
+    .nav-item1 {
+        height: 80px;
+    }
+    .nav-item2 {
+        height: 110px;
+    }
+    .nav-item3 {
+        height: 160px;
+    }
     .cover {
         display: none;
     }
