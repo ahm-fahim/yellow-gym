@@ -218,13 +218,18 @@ p {
     }
     /* footer  */
     .footer-box1 {
-        height: 100px;
+        height: 644px;
         width: 200px;
-        left: -50px;
-        top: 100px;
-        rotate: 90deg;
+        top: 90px;
+        rotate: none;
+        border-top-right-radius:0px;
     }
     .footer-box2 {
-        display: none;
+        width: 100%;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        height: 200px;
+        top: 0px;
     }
 }
