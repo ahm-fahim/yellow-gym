@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: gold;
+    height: 100vh;
 }
 /* Header section  */
 .header {
@@ -121,41 +122,28 @@ body {
     height: 100px;
     transform: translateY(100%);
 }
-.footer-box1 {
-    background-color: #02022d;
-    height: 600px;
-    width: 600px;
-    rotate: 45deg;
+.footer {
+    background-image: url(./images/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    top: 140px;
-    left: -113px;
     z-index: -1;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-}
-.footer-box2 {
-    background-color: #02022d;
-    height: 264px;
-    width: 100%;
-    position: relative;
-    top: 0px;
-    z-index: -1;
-}
-.location h3,
-p {
-    color: #565656;
-    text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
+    top: 50vh;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
 }
 .location {
-    padding: 50px 50px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
 }
 
 /*--------------------
         MOBILE
 ---------------------*/
 @media only screen and (max-width: 688px) {
-    body{
+    body {
         height: 100vh;
     }
     /* header  */
@@ -205,7 +193,7 @@ p {
         height: 120px;
         width: 40px;
         top: 260px;
-        left: 177px;
+        left: 170px;
     }
     .join-btn {
         background-color: #02022d;
@@ -220,19 +208,15 @@ p {
         transform: translateY(100%);
     }
     /* footer  */
-    .footer-box1 {
-        height: 644px;
-        width: 200px;
-        top: 90px;
-        rotate: none;
-        border-top-right-radius:0px;
-    }
-    .footer-box2 {
-        width: 100%;
-        bottom: 0px;
-        left: 0;
-        right: 0;
-        height: 200px;
-        top: 0px;  
+    .footer {
+        background-image: url(./images/wave.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: -1;
+        top: 50vh;
+        height: 50vh;
+        display: flex;
+        align-items: flex-end;
     }
 }
