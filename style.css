@@ -155,14 +155,13 @@ p {
         MOBILE
 ---------------------*/
 @media only screen and (max-width: 688px) {
-    .logo i span{
+    .logo i span {
         font-size: 20px;
     }
-    .logo i{
+    .logo i {
         font-size: 15px;
     }
-    
-    
+
     .cover {
         display: none;
     }
