@@ -218,7 +218,11 @@ p {
     }
     /* footer  */
     .footer-box1 {
-        display: none;
+        height: 100px;
+        width: 200px;
+        left: -50px;
+        top: 100px;
+        rotate: 90deg;
     }
     .footer-box2 {
         display: none;
