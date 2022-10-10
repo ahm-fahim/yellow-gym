@@ -155,6 +155,7 @@ p {
         MOBILE
 ---------------------*/
 @media only screen and (max-width: 688px) {
+    /* header  */
     .logo i span {
         font-size: 20px;
     }
@@ -176,7 +177,43 @@ p {
     .nav-item3 {
         height: 160px;
     }
-    .cover {
+
+    /* cover  */
+    .title1{
+        font-size: 40px;
+        left: 40px;
+        top: 70px;
+    }
+    .title2{
+        font-size: 50px;
+        top: 90px;
+        left: 10px;
+    }
+    .title3{
+        font-size: 35px;
+        top: 200px;
+        left: 203px;
+    }
+    .cover-image{
+        height: 200px;
+        left: 2px;
+    }
+    .spring-image{
+        height: 120px;
+        width: 40px;
+        top: 260px;
+        left: 175px;
+    }
+    .join-btn{
+        background-color: #02022d;
+        top: 360px;
+        left: 150px;
+    }
+    /* footer  */
+    .footer-box1{
+        display: none;
+    }
+    .footer-box2{
         display: none;
     }
 }
