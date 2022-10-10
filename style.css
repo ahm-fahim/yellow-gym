@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: gold;
+    background-color: goldenrod;
 }
 /* Header section  */
 .header {
@@ -155,6 +155,9 @@ p {
         MOBILE
 ---------------------*/
 @media only screen and (max-width: 688px) {
+    body{
+        height: 100vh;
+    }
     /* header  */
     .logo i span {
         font-size: 20px;
@@ -230,6 +233,6 @@ p {
         left: 0;
         right: 0;
         height: 200px;
-        top: 0px;
+        top: 0px;  
     }
 }
